@@ -32,22 +32,17 @@
     combos {
         compatible = "zmk,combos";
 
-        Layer_2 {
-            bindings = <&to 0>;
-            key-positions = <32 35>;
-        };
-
         Layer_1 {
             bindings = <&to 1>;
             key-positions = <35 33>;
         };
 
-        Layer_3 {
+        Layer_2 {
             bindings = <&to 2>;
             key-positions = <34 36>;
         };
 
-        Layer_4 {
+        Layer_3 {
             bindings = <&to 3>;
             key-positions = <34 37>;
         };
